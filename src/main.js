@@ -3,6 +3,8 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import axios from 'axios'//引入axios
+Vue.prototype.$axios = axios;//把axios挂载到vue上
 
 Vue.config.productionTip = false
 
