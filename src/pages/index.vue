@@ -129,27 +129,27 @@
                       <li class="toplist__song">
                         <div class="toplist__songname">
                            <span class="toplist__number">1</span>
-                            <a href="#">差不多姑娘</a>
+                            <a href="#">回答 (纯享版)</a>
                         </div>
                         <div class="toplist__artist">
-                            <a href="#">G.E.M. 邓紫棋</a>
+                            <a href="#">张钰琪</a>
                         </div>
                       </li>
 
                       <li class="toplist__song">
                         <div class="toplist__songname">
                           <span class="toplist__number">2</span>
-                          <a href="#">差不多姑娘</a>
+                          <a href="#"> The Archer</a>
                         </div>
                         <div class="toplist__artist">
-                          <a href="#">G.E.M. 邓紫棋</a>
+                          <a href="#">Taylor Swift</a>
                         </div>
                       </li>
 
                       <li class="toplist__song">
                         <div class="toplist__songname">
                           <span class="toplist__number">3</span>
-                          <a href="#">差不多姑娘</a>
+                          <a href="#">画 (Live Piano Session Ⅱ)</a>
                         </div>
                         <div class="toplist__artist">
                           <a href="#">G.E.M. 邓紫棋</a>
@@ -167,27 +167,27 @@
                     <li class="toplist__song">
                       <div class="toplist__songname">
                         <span class="toplist__number">1</span>
-                        <a href="#">差不多姑娘</a>
+                        <a href="#">慢半拍</a>
                       </div>
                       <div class="toplist__artist">
-                        <a href="#">G.E.M. 邓紫棋</a>
+                         <a href="#">薛之谦</a>
                       </div>
                     </li>
 
                     <li class="toplist__song">
                       <div class="toplist__songname">
                         <span class="toplist__number">2</span>
-                        <a href="#">差不多姑娘</a>
+                        <a href="#">缘分一道桥</a>
                       </div>
                       <div class="toplist__artist">
-                        <a href="#">G.E.M. 邓紫棋</a>
+                        <a href="#">王力宏/谭维维</a>
                       </div>
                     </li>
 
                     <li class="toplist__song">
                       <div class="toplist__songname">
                         <span class="toplist__number">3</span>
-                        <a href="#">差不多姑娘</a>
+                        <a href="#">来自天堂的魔鬼</a>
                       </div>
                       <div class="toplist__artist">
                         <a href="#">G.E.M. 邓紫棋</a>
@@ -215,20 +215,20 @@
                     <li class="toplist__song">
                       <div class="toplist__songname">
                         <span class="toplist__number">2</span>
-                        <a href="#">差不多姑娘</a>
+                        <a href="#">慢半拍</a>
                       </div>
                       <div class="toplist__artist">
-                        <a href="#">G.E.M. 邓紫棋</a>
+                        <a href="#">薛之谦</a>
                       </div>
                     </li>
 
                     <li class="toplist__song">
                       <div class="toplist__songname">
                         <span class="toplist__number">3</span>
-                        <a href="#">差不多姑娘</a>
+                        <a href="#"> bad guy</a>
                       </div>
                       <div class="toplist__artist">
-                        <a href="#">G.E.M. 邓紫棋</a>
+                        <a href="#">Billie Eilish</a>
                       </div>
                     </li>
 
@@ -244,30 +244,30 @@
                     <li class="toplist__song">
                       <div class="toplist__songname">
                         <span class="toplist__number">1</span>
-                        <a href="#">差不多姑娘</a>
+                        <a href="#">body guy</a>
                       </div>
                       <div class="toplist__artist">
-                        <a href="#">G.E.M. 邓紫棋</a>
+                        <a href="#">Billie Eilish</a>
                       </div>
                     </li>
 
                     <li class="toplist__song">
                       <div class="toplist__songname">
                         <span class="toplist__number">2</span>
-                        <a href="#">差不多姑娘</a>
+                        <a href="#"> The Archer</a>
                       </div>
                       <div class="toplist__artist">
-                        <a href="#">G.E.M. 邓紫棋</a>
+                        <a href="#"> Taylor Swift</a>
                       </div>
                     </li>
 
                     <li class="toplist__song">
                       <div class="toplist__songname">
                         <span class="toplist__number">3</span>
-                        <a href="#">差不多姑娘</a>
+                        <a href="#">Beautiful People</a>
                       </div>
                       <div class="toplist__artist">
-                        <a href="#">G.E.M. 邓紫棋</a>
+                        <a href="#">Ed Sheeran/Khalid</a>
                       </div>
                     </li>
 
@@ -283,30 +283,30 @@
                     <li class="toplist__song">
                       <div class="toplist__songname">
                         <span class="toplist__number">1</span>
-                        <a href="#">差不多姑娘</a>
+                        <a href="#"> 그대라는 시 </a>
                       </div>
                       <div class="toplist__artist">
-                        <a href="#">G.E.M. 邓紫棋</a>
+                        <a href="#">태연 (太妍)</a>
                       </div>
                     </li>
 
                     <li class="toplist__song">
                       <div class="toplist__songname">
                         <span class="toplist__number">2</span>
-                        <a href="#">差不多姑娘</a>
+                        <a href="#"> Another Day</a>
                       </div>
                       <div class="toplist__artist">
-                        <a href="#">G.E.M. 邓紫棋</a>
+                        <a href="#">먼데이 키즈 (Monday Kiz)</a>
                       </div>
                     </li>
 
                     <li class="toplist__song">
                       <div class="toplist__songname">
                         <span class="toplist__number">3</span>
-                        <a href="#">差不多姑娘</a>
+                        <a href="#">나의 어깨에 기대어요</a>
                       </div>
                       <div class="toplist__artist">
-                        <a href="#">G.E.M. 邓紫棋</a>
+                        <a href="#">10cm (십센치)</a>
                       </div>
                     </li>
 
@@ -396,6 +396,7 @@
                   //请求失败或者接口返回失败或者.then()中的代码发生错误时执行
                 })
             },
+
             getNewMusicList(){
               var that = this;
               this.$axios({
