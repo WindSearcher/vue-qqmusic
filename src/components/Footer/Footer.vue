@@ -108,7 +108,7 @@ export default {
     };
   },
   methods: {
-    getInfo: function() {
+   getInfo: function() {
       this.$axios.get("http://localhost:3000/getfooterContent").then(result => {
         this.fcontent = result.data.footer;
       });
@@ -116,7 +116,7 @@ export default {
   },
   created() {},
   mounted() {
-    this.getInfo();
+    // this.getInfo();
   },
   updated() {
   }
