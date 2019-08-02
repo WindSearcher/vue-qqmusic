@@ -109,14 +109,14 @@ export default {
   },
   methods: {
    getInfo: function() {
-      this.$axios.get("http://localhost:3000/getfooterContent").then(result => {
+      this.$axios.get("http://localhost:8000/getfooterContent").then(result => {
         this.fcontent = result.data.footer;
       });
     }
   },
   created() {},
   mounted() {
-    // this.getInfo();
+    this.getInfo();
   },
   updated() {
   }
@@ -175,7 +175,7 @@ i {
   display: block;
   width: 37px;
   height: 48px;
-  background-image: url("../../assets/footer_img.png");
+  background-image: url("../../assets/images/footer_img.png");
 }
 a:hover .pc {
   background-position: -2px -49px;

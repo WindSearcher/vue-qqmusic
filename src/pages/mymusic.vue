@@ -96,7 +96,7 @@
   @import '../assets/mymusic-css/mymusic.css';
   .mod_profile_unlogin {
     height: 622px;
-    background: url('../assets/bg_profile_unlogin.jpg') 50% no-repeat;
+    background: url('../assets/images/bg_profile_unlogin.jpg') 50% no-repeat;
     background-size: cover;
     min-width: 1200px;;
     overflow: hidden;

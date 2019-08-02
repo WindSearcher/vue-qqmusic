@@ -45,7 +45,7 @@
                   <img :src="i.radioImg" class="music_icon" />
                   <div class="play">
                     <transition>
-                      <img src="../assets/music_play.png" />
+                      <img src="../assets/images/music_play.png" />
                     </transition>
                   </div>
                 </div>
@@ -76,7 +76,7 @@ export default {
 
   methods: {
     getContent: function() {
-      this.$axios.get("http://localhost:3000/getradioContent").then(result => {
+      this.$axios.get("http://localhost:8000/getradioContent").then(result => {
         this.content = result.data.radio;
       });
     },
@@ -126,13 +126,12 @@ export default {
 
   mounted() {
     //获取后台内容
-    // this.getContent();
+    this.getContent();
     //获取侧边栏中的a元素
     this.slideA = document.querySelectorAll(".slide>ul>li>a");
 
   },
   updated() {
-    this.getContent();
     var vm = this;
     console.log(this.$refs.refTil);
     this.getTop(this.$refs.refTil);
@@ -177,125 +176,7 @@ export default {
 </script>
 
 <style scoped>
-@import "../assets/public.css"
-a {
-  text-decoration: none;
-  color: #214;
-}
-a:hover {
-  color: #31c27c;
-  text-decoration: none;
-}
-.main {
-  margin: 0 auto;
-  width: 1200px;
-  position: relative;
-  /* border: 1px solid #000; */
-}
-.slide {
-  position: absolute;
-  width: 150px;
-  left: -50px;
-  background: url("../assets/radio_sidebar.png") 0 0 no-repeat;
-}
-.slide > ul > li {
-  /* border: 1px solid #000; */
-  line-height: 59px;
-  text-align: center;
-}
-.slide > ul > li > a {
-  position: relative;
-  /* border: 1px solid #000; */
-}
-.slide_radio_cur::after {
-  content: "";
-  position: absolute;
-  display: inline-block;
-  width: 40px;
-  height: 2px;
-  background-color: #31c27c;
-  left: -59px;
-  top: 50%;
-}
-.curTil {
-  color: #31c27c;
-}
-.radio {
-  margin-top: 58px;
-  margin-left: 250px;
-  width: 950px;
-  box-sizing: border-box;
-  position: relative;
-}
-.radio-tit {
-  position: relative;
-}
-.radio-tit > h3 {
-  font-size: 16px;
-  color: #ccc;
-}
-.radio-tit > h3::after {
-  content: "";
-  position: absolute;
-  height: 1px;
-  overflow: hidden;
-  left: 50px;
-  right: 0;
-  top: 10px;
-  background-color: #ececec;
-}
-.radio-body {
-  margin-top: 30px;
-}
-.radio-body > ul {
-  display: flex;
-  flex-wrap: wrap;
-}
-.radio-body li {
-  width: 25%;
-  position: relative;
-  box-sizing: border-box;
-  margin-bottom: 20px;
-}
-.img-box {
-  width: 215px;
-  height: 215px;
-  position: relative;
-  overflow: hidden;
-}
-.music_icon {
-  width: 215px;
-  height: 215px;
-  transition: all 0.4s;
-}
-.img-box .play {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  transition: all 0.4s;
-  display: none;
-}
+@import "../assets/images/public.css";
+@import "../assets/radioStation/radioStation.css";
 
-.text {
-  padding-top: 15px;
-}
-.text > a {
-  display: inline-block;
-}
-
-.text > p {
-  color: #aaa;
-}
-.cover {
-  position: absolute;
-  opacity: 0;
-  display: inline-block;
-  left: 0;
-  top: 0;
-  width: 215px;
-  height: 215px;
-  z-index: 10;
-  background-color: rgba(0, 0, 0, 0.5);
-}
 </style>
